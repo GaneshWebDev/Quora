@@ -1,0 +1,94 @@
+.questionBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6e7e8;
+    width: 100vw;
+}
+.header{
+    position: relative;
+    background-color: white;
+    display: flex;
+    width: 700px;
+    height: 100px;
+    padding-top: 70px;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid #D3D3D3;
+    margin-top: 100px;
+}
+.header .icon{
+    position: absolute;
+    left: 0px;
+    top: 14px;
+}
+.header .title{
+    width: 100%;
+    cursor: pointer;
+}
+.header .title:hover{
+    background-color: #F5F5F5;
+}
+.active{
+    border-bottom: 3px solid blue;
+    border-radius: 1px;
+}
+.questionTitle{
+    background-color: white;
+    display: flex;
+    width: 700px;
+    height: 100px;
+    padding-top: 50px;
+    justify-content: center;
+    border: none;
+    font-weight: bold;
+}
+.questionTitle input{
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+    color: grey;
+}
+.questionTitle input:focus{
+    outline: none;
+}
+.questionText{
+    background-color: white;
+    display: flex;
+    width: 700px;
+    height: 180px;
+    padding-top: 50px;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+}
+.buttons{
+    background-color: white;
+    display: flex;
+    width: 700px;
+    height: 70px;
+    justify-content:end;
+    align-items: center;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.buttons button{
+    height: 40px;
+}
+.buttons .cancel{
+    border: none;
+    color: black;
+    background-color: white;
+}
+.buttons .addQuestion{
+    border: none;
+    background-color: blue;
+    border-radius: 30px;
+    margin: 10px;
+    padding-bottom: 35px;
+}

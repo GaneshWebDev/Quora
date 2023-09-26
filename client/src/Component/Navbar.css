@@ -1,0 +1,82 @@
+.nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: 0px;
+    width: 100vw;
+    justify-content: center;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    background-color: white;
+    position: fixed;
+}
+.nav .colm{
+    margin: 10px;
+}
+.navbar-brand span{
+    font-family: Clarendon Bold;
+    font-weight: 600;
+    color: #B92B27;
+    font-size: 2em;
+  }
+.fab{
+    color:#B92B27;
+    font-size: 2em;
+}
+.logo{
+  padding-right: 20px;
+}
+.icon{
+    font-size: 1.7em;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+  }
+.search{
+    position: relative;
+    background-color: aliceblue;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 40px;
+    width: 300px;
+}
+.iconProfile{
+    background-color: gray;
+    border-radius: 47%;
+    padding: 10px;
+}
+.searchIcon{
+   position: absolute;
+   z-index: 1;
+   margin-left: 6px;
+   margin-top: 14px;
+   color: gray;
+   font-size: 0.9rem;
+}
+.addQuestion{
+    display: flex;
+}
+.add{
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 0.7rem;
+    background-color: #B92B27;
+    border: none;
+}
+.create{
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    border-radius: 0px 50% 50% 0px;
+    text-align: center;
+    background-color: #B92B27;
+    border-left: 1px solid ;
+    font-size: 1.1rem;
+    color: aliceblue;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.create i{
+    
+}
